@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="./script.js"></script>
+    <header class="header" id="scorecard">
+        <h2>Quiz</h2>
+        <h3 id="preScore"></h3>
+        <h2>Time Left:<span id="timeLeft"></span></h2>
+
+    </header>
+
+    <main class="main">
+        <h1>Sup?</h1>
+        <p>60 seconds, get to it</p>
+        <button id="startBtn">Less Gooo!</button>
+    </main>
+
+    <section class="testQuestions" id="questionEl">
+        <h2 id="keepScore"></h2>
+        <h3 id="question">Question</h3>
+        <button id="optionA" class="answer" value="a"></button>
+        <button id="optionB" class="answer" value="b"></button>
+        <button id="optionC" class="answer" value="c"></button>
+        <button id="optionD" class="answer" value="d"></button>
+        <p id="results"></p>
+    </section>
+    <section id="finalTally" class="final-tally">
+        <h2 id="lastTally"></h2>
+        <p>Enter Initials</p>
+        <form action="./script.js"></form>
+        <label for="initials">Here</label>
+        <input type="text" id="initials" name="initials" />
+        <button id="subBtn">Submit</button>
+        <p id="highScore"></p>
+    </section>
+</body>
+
+</html>
